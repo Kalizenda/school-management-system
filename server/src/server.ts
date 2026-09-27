@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 });
 
 app.use(cors({
-    origin: "http://localhost:5173"
+    origin: "https://ordering-recent-brain-speech.trycloudflare.com"
 }));    
 
 app.use("/api", authRouter);
